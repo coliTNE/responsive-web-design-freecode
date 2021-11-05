@@ -1,0 +1,83 @@
+<head>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="header">
+            <h1 id="title"> 
+                Food Survey
+            </h1>
+            <p id="description">
+                <u><em>A quick food survey to get to know your favorite plate</em></u>
+            </p>
+        </section>
+        <section id="survey">
+            <form id="survey-form">
+                <div class="paso nro1">
+                    <label for="pasos nro1" id="name-label">Name</label>
+                    <input id="name" class="control" type="text" placeholder="Enter your Name" required>
+                </div>
+                <div class="paso nro2">
+                    <label for="email" id="email-label">E-mail</label>
+                    <input id="email" class="control" type="text" placeholder="Enter your E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+                </div>
+                <div class="paso nro3">
+                    <label for="number" id="number-label">Age (Optional)</label>
+                    <input id="number" class="control" type="number" placeholder="Enter Your Age" min="10" max="100">
+                </div>
+                <div class="paso nro4">
+                    <p>Favorite Food ?</p>
+                    <select id="dropdown" class="control">
+                        <option disabled selected value>Select an option</option>
+                        <option value="milanesa">Milanesa</option>
+                        <option value="hamburguesa">Hamburguesa</option>
+                        <option value="fideos">Fideos</option>
+                    </select>
+                </div>
+                <div class="paso nro5">
+                    <p>Favorite seasoning ?</p>
+                    <label>
+                        <input name="condimento" type="radio" value="ketchup" class="input-radio">
+                        Ketchup
+                    </label>
+                    <label>
+                        <input name="condimento" type="radio" value="mayo" class="input-radio">
+                        Mayo
+                    </label>
+                    <label>
+                        <input name="condimento" type="radio" value="BBQ" class="input-radio">
+                        BBQ
+                    </label>
+                </div>
+                <div class="paso nro6">
+                    <p>Build your Burger</p>
+                    <label>
+                        <input name="burger" type="checkbox" value="cheddar" class="input-checkbox">
+                        Cheddar
+                    </label>
+                    <label>
+                        <input name="burger" type="checkbox" value="lettuce" class="input-checkbox">
+                        Lettuce
+                    </label>
+                    <label>
+                        <input name="burger" type="checkbox" value="tomato" class="input-checkbox">
+                        Tomato
+                    </label>
+                    <label>
+                        <input name="burger" type="checkbox" value="bacon" class="input-checkbox">
+                        Bacon
+                    </label>
+                </div>
+                <div class="paso nro7">
+                    <p>Tell us want we can improve</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here...">
+                        
+                    </textarea>
+                </div>
+                <div class="paso nro8">
+                    <button type="submit" id="submit" class="submit-buttom">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>

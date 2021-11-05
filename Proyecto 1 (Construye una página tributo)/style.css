@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3, p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+}
+
+#main {
+    background-color: rgb(34, 82, 66);
+    color: rgb(240, 240, 219);
+    border-radius: 25px;
+}
+
+#img-div {
+    background-color: rgb(55, 133, 107);
+    justify-content: center;
+    display: block;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+#img-caption{
+    font-size: 20px;
+    padding: 8px;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+}
+#tribute-info {
+    padding: 0px 30px 0px 30px;
+
+}
+
+
+#tribute-info > p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 35px;
+}
