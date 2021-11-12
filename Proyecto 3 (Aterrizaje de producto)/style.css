@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: white;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
